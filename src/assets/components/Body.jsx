@@ -53,11 +53,14 @@ const Body = () => {
   const [namee, setnamee] = useState("");
   const [email, setemail] = useState("");
   const [message, setmessage] = useState("");
+  const serid = import.meta.env.VITE_SERVICE_ID;
+  const tid = import.meta.env.VITE_TEMPLATE_ID;
+  const pid = import.meta.env.VITE_PUBLIC_ID;
 
   const submit = async () => {
-    const serviceid = import.meta.env.VITE_SERVICE_ID;
-    const templateid = import.meta.env.VITE_TEMPLATE_ID;
-    const publicid = import.meta.env.VITE_PUBLIC_ID;
+    const serviceid = serid;
+    const templateid = tid;
+    const publicid = pid;
     var data = {
       service_id: serviceid,
       template_id: templateid,
