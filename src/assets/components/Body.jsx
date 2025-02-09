@@ -179,7 +179,7 @@ const Body = () => {
         </div>
       </div>
       <div className="h-screen flex flex-col gap-20 justify-center items-center">
-        <p className="text-5xl font-bold text-white">Gallary</p>
+        <p className="text-5xl font-bold text-white">Gallery</p>
         <div className="h-[40%] w-[40%] rounded-2xl bg-gray-300 scrollbar shadow-100 flex justify-between items-center px-10 gap-5 flex-shrink-0  max-lg:flex-col max-lg:overflow-x-scroll max-lg:py-10">
           <div className="rounded-2xl h-[80%] w-[30%]  hover:flex-shrink-0 hover:duration-300 bg-gradient-to-b from-amber-600 to-yellow-500 transition-all ease-in-out transform hover:scale-105 max-lg:flex-shrink-0 max-lg:w-[100%] max-lg:h-[22%]">
             {" "}
