@@ -115,7 +115,7 @@ const Body = () => {
               I'm
             </p>
             <p
-              className="2xl:text-[12rem] xl:te lg:text-[7rem]  max-lg:text-[7rem] font-bold "
+              className="2xl:text-[12rem] xl:te lg:text-[7rem]  max-lg:text-[5rem] font-bold "
               style={{
                 backgroundImage: `url(${flowerpattern})`,
                 backgroundClip: "Text",
